@@ -35,7 +35,7 @@ public class Controller {
 		//设置请求频率
 		config.setPolitenessDelay(5000);
 		//设置网页请求深度
-		config.setMaxDepthOfCrawling(0);
+		config.setMaxDepthOfCrawling(-1);
 		//设置爬取网页多少次
 		config.setMaxPagesToFetch(10000000);
 		//设置是否爬取二进制网页
